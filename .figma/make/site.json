@@ -1,0 +1,10 @@
+{
+  "description": "Create a professional portfolio tailored for IT engineers and digital transformation entrepreneurs, showcasing skills, projects, and achievements effectively.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
