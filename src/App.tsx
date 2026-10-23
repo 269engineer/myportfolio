@@ -1,7 +1,6 @@
 import { useState } from "react"
 
 const ArrowUpRight = ({ size = 18 }: { size?: number }) => (
-  <a href="https://github.com/269engineer">
     <svg
       aria-hidden="true"
       width={size}
@@ -16,23 +15,24 @@ const ArrowUpRight = ({ size = 18 }: { size?: number }) => (
       <path d="M7 17 17 7" />
       <path d="M7 7h10v10" />
     </svg>
-  </a>
 )
 
 const ArrowRight = () => (
-  <svg
-    aria-hidden="true"
-    width="18"
-    height="18"
-    viewBox="0 0 24 24"
-    fill="none"
-    stroke="currentColor"
-    strokeWidth="2"
-    strokeLinecap="round"
-    strokeLinejoin="round"
-  >
-    <path d="M5 12h14M13 6l6 6-6 6" />
-  </svg>
+  <a href="https://github.com/269engineer">
+    <svg
+      aria-hidden="true"
+      width="18"
+      height="18"
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="2"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    >
+      <path d="M5 12h14M13 6l6 6-6 6" />
+    </svg>
+  </a>
 )
 
 const services = [
