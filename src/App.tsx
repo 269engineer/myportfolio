@@ -29,7 +29,6 @@ const ArrowRight = () => (
   strokeLinecap="round"
   strokeLinejoin="round"
 >
-    <a href="https://github.com/269engineer">L</a>
   <path d="M5 12h14M13 6l6 6-6 6" />
 </svg>
 )
@@ -307,6 +306,7 @@ export default function App() {
           <p>
             Des réalisations académiques et professionnelles où l'ingénierie
             répond à un besoin concret.
+            Retrouvez mes projets dans mon compte<a href="https://github.com/269engineer"> Github </a>.
           </p>
         </div>
 
@@ -451,7 +451,7 @@ export default function App() {
             LinkedIn <ArrowUpRight size={14} />
           </a>
           <a
-            href="https://github.com/269aissa"
+            href="https://github.com/269engineer"
             target="_blank"
             rel="noreferrer"
           >
