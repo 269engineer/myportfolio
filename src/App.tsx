@@ -325,7 +325,7 @@ export default function App() {
                 <span>{project.resultLabel}</span>
               </div>
               <div className="project-arrow">
-                <ArrowUpRight size={22} href= "https://github.com/269engineer"/>
+                <ArrowUpRight size={22} />
               </div>
             </article>
           ))}
