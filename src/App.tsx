@@ -13,10 +13,10 @@ const ArrowUpRight = ({ size = 18 }: { size?: number }) => (
       strokeLinecap="round"
       strokeLinejoin="round"
     >
-    </a>
-    <path d="M7 17 17 7" />
-    <path d="M7 7h10v10" />
-  </svg>
+      <path d="M7 17 17 7" />
+      <path d="M7 7h10v10" />
+    </svg>
+  </a>
 )
 
 const ArrowRight = () => (
