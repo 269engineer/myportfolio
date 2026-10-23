@@ -1,17 +1,19 @@
 import { useState } from "react"
 
 const ArrowUpRight = ({ size = 18 }: { size?: number }) => (
-  <svg
-    aria-hidden="true"
-    width={size}
-    height={size}
-    viewBox="0 0 24 24"
-    fill="none"
-    stroke="currentColor"
-    strokeWidth="2"
-    strokeLinecap="round"
-    strokeLinejoin="round"
-  >
+  <a href="https://github.com/269engineer">
+    <svg
+      aria-hidden="true"
+      width={size}
+      height={size}
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="2"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    >
+    </a>
     <path d="M7 17 17 7" />
     <path d="M7 7h10v10" />
   </svg>
